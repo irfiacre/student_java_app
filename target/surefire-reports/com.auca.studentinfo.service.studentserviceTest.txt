@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.auca.studentinfo.service.studentserviceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in com.auca.studentinfo.service.studentserviceTest
+testDisplaystudent  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.mockito.exceptions.base.MockitoException: 
+
+Mockito cannot mock this class: interface com.auca.studentinfo.controller.Dao.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 18
+JVM vendor name    : Homebrew
+JVM vendor version : 18.0.2+0
+JVM name           : OpenJDK 64-Bit Server VM
+JVM version        : 18.0.2+0
+JVM info           : mixed mode, sharing
+OS name            : Mac OS X
+OS version         : 12.5
+
+
+Underlying exception : java.lang.UnsupportedOperationException: Cannot define class using reflection: Unsupported class file major version 62
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unsupported class file major version 62
+

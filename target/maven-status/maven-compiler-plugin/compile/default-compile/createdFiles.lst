@@ -1,0 +1,7 @@
+com/auca/studentinfo/controller/Dao.class
+com/auca/studentinfo/service/services.class
+com/auca/studentinfo/controller/hibernateimpl.class
+com/auca/studentinfo/StudentinfoApplication.class
+com/auca/studentinfo/service/studentservice.class
+com/auca/studentinfo/entity/student.class
+com/auca/studentinfo/rest/studentcontroller.class
